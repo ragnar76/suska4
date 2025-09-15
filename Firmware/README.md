@@ -1,5 +1,7 @@
 # Suska-IV Atmega Firmware
 
+The Source code of the AVR-Firmware is here: [https://github.com/umatthe/suska-firmware](Suska-Firmware)
+This diectory contains the latest official binary
 To update the AVR-Firware on Suska_IV-B:
 - download binary [system-bf.hex](system-bf.hex)
 - make sure that no SD-Card is inserted in the AVR-µSD-SLot
