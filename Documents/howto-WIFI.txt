@@ -19,8 +19,8 @@ Lightning Setup already (otherwise no USB-Keybord/Mouse would work).
 -----------
 To use UIPTOOL no special setup is needed. Just follow the Instructions 
 on this page: https://bitbucket.org/sqward/uip-tools/src/master
-Normally on the delivered HD-Image there should be UIPTOOL.TOS awailable
-on C:\
+Normally on the delivered HD-Image there should be UIPTOOL available
+named C:\UIPWIFI.TOS
 
 4. MINT
 -------
