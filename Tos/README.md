@@ -10,8 +10,8 @@ ROM Collections (8MB with 16 512k TOS-Slots):<br>
 - copy Collection to µSD-Card (FAT 16/32)
 - insert Card into µSD-Slot
 - power up Suska-IV-B
-- on AVR-Shell
-  ls          (check if collection file is on card)
-  f-erase all (to erase the TOS Flash)
-  ... wait for red LED to stop blinking ...
-  f-write 0 r-b4dbg.img
+- connect to AVR-Shell
+- ls                                          (check if collection file is on card)
+- f-erase all                                 (to erase the TOS Flash)
+- ... wait for red LED to stop blinking ...
+- f-write 0 r-b4dbg.img                       (writes Collection and boots when finished)
