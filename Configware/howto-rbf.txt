@@ -1,0 +1,53 @@
+Howto Update the Suska-Cores using the .rbf File
+------------------------------------------------
+- copy the rbf-file to a µSDCard with FAT16/32-Filesystem
+- connect a Terminal to AVRUART 38400bd 8N1
+- insert card into µSD-Slot
+- powerup Suska-IV-B
+- at the prompt type:
+  ls                                     (to check if the Card is ok and the File is available)
+  as-write SUSKA_IV_B_FALCON_250924.rbf  (to flash the file to the Configflash)
+  reset                                  (to power off the Suska-IV-B)
+  #                                      (to power on the Suska-IV-B)
+
+
+Here is how it looked in my System
+----------------------------------
+BF fpga-shell:> ls
+...
+----A 2025/9/27 8:24 1325690  SUSKA_IV_B_FALCON_250924.rbf
+...
+xx File(s),xxxxx bytes total
+x Dir(s)
+BF fpga-shell:> as-write SUSKA_IV_B_FALCON_250924.rbf
+Parameter: SUSKA_IV_B_FALCON_250924.rbf
+SUSKA_IV_B_FALCON_250924.rbf 00000000
+FLash: erasing ... done
+ done ...  0x050C KB
+File SUSKA_IV_B_FALCON_250924.rbf flashed.
+BF fpga-shell:>
+BF fpga-shell:> reset
+** UART-Init done **
+** Power init done (power off) **
+#wait conf ...
+** Power on done **
+Raw Voltage: 0359
+ c1  c0  r1  r0 ** Init done **
+raw Input Voltage: 0358
+Input Voltage: 5.24V
+ATMEGA-Version: 20250729
+Boot image id: f
+Boot App Version: 0
+FPGA-Coretype: 07 30 (Suska-III/IV-B* FALCON WF68K30)
+FPGA-Version: 20250924
+OCR1 :00 00 01 AA
+CardType :0C
+Error: Unable to open:  fres=4
+FPGA Default init-File (init.txt) failed
+*** Suska-III-BF FPGA-Shell ***
+BF fpga-shell:>
+Check PS2 Devices
+Keyboard: 00
+Mouse: 00
+
+
