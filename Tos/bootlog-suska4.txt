@@ -1,0 +1,167 @@
+init_serport() done
+bios_init()
+natfeat_init()
+processor_init()
+processor_init() done type: 30 subtype: 0
+Address Bus width is 32-bit
+vecs_init()
+init_delay()
+machine_detect()
+is_aranym = 0
+has_modectl = 1
+ttram_detect()
+has_ste_shifter = 1
+has_tt_shifter = 0
+has_videl = 1
+has_scc = 1
+has_vme = 0
+has_megartc = 0
+has_icdrtc = 0
+has_nvram = 1
+has_dip_switches = 1
+has_blitter = 1
+detected_busses = 0x0
+has_monster = 0
+has_magnum = 0
+machine_init()
+bmem_init()
+cookie_init()
+fill_cookie_jar()
+cookie_vdo = 0x00030000
+cookie_mch = 0x00030000
+cookie_swi = 0x000000bf
+cookie_snd = 0x00000017
+add_cookie_frb()
+cookie_frb = 0x000131ac
+cookie_akp = 0x00000101
+cookie_idt = 0x000012aa
+cookie_fdc = 0x01415443
+font_init()
+scc_init()
+screen_init_mode()
+monitor_type = 2
+setphys(0x00010000)
+NVRAM boot video mode is 0x003a
+vsetmode(0x003a)
+Fixed boot video mode is 0x003a
+linea_init()
+screen_init_address()
+calc_vram_size: minimum required size 153600 bytes
+v_bas_ad = 0x00da5f00, vram_size = 368896
+setphys(0x00da5f00)
+vt52_init()
+after vt52_init()
+EmuTOS Version 20250927
+init_system_timer()
+init_serport()
+dmasound_init()
+snd_init()
+kbd_init()
+midi_init()
+init_acia_vecs()
+after init_acia_vecs()
+calibrate_delay()
+blkdev_init()
+unit 2 is managed by EmuTOS internal drivers: ACSI Disk
+ada:  MBR at 0 $06
+unit 26 is managed by EmuTOS internal drivers: Disk
+unit 26 is managed by EmuTOS internal drivers: Disk
+after blkdev_init()
+parport_init()
+clock_init()
+after clock_init()
+osinit_before_xmaddalt()
+after osinit_before_xmaddalt()
+altram_init()
+osinit_after_xmaddalt()
+nvram_getregs(): 100/04/16  34:73:67
+after osinit_after_xmaddalt()
+run_cartridge_applications(3)
+after run_cartridge_applications()
+bios_init() end
+
+
+
+
+                                                         
+                                                         
+                                                         
+                                                         
+                                                         
+                    ________________________________________
+
+                    EmuTOS Version:     20250927 
+                    CPU-Typ:            M68030 
+                    Rechner:            Atari Falcon 
+                    ST-RAM:             14 MB 
+                    Alt-RAM:            48 MB 
+                    GEMDOS-Laufwerke:   CD 
+                    Boot-Zeit:          nvram_getregs(): 100/04/16  34:73:67
+2068/04/16 03:09:02 
+                    ________________________________________
+
+                    Halte <Strg> = ohne AUTO/ACC
+                    Halte <Alt> = keine Harddisk
+                    Dr cke 'X' um von Laufwerk X: zu booten
+                    Dr cke <Esc> f r die Textkonsole
+
+                       F r Pause <Shift> gedr ckt halten    
+
+bootdev = 2
+bootflags = 0x00
+Loading \AUTO\USB.PRG ...
+
+ USB core API driver for TOS 
+Brought to TOS by Alan Hourihane.
+David Galvez 2010-2014.
+Alan Hourihane 2013-2014.
+Compiled Feb  1 2024.
+USB core installed.
+[OK]
+Loading \AUTO\KEYBOARD.PRG ...
+
+ USB keyboard class driver TOS DRIVERS 
+By Christian Zietz.
+Compiled Feb  1 2024.
+USB keyboard driver installed.
+[OK]
+Loading \AUTO\MOUSE.PRG ...
+
+ USB mouse class driver TOS DRIVERS 
+Ported, mixed and shaken by Alan Hourihane.
+Compiled Feb  1 2024.
+USB mouse driver installed.
+[OK]
+Loading \AUTO\STORAGE.PRG ...
+ USB mass storage class driver 1.0 
+Ported, mixed and shaken by David Galvez.
+Atari partition support by Roger Burrows.
+SCSIDRV support by Alan Hourihane.
+Compiled Feb  1 2024.
+
+USB storage driver installed.
+[OK]
+Loading \AUTO\TEMPLMON.PRG ...
+
+ TempleMon       release 2.02      June 15 1993 
+   1986-93 by Johannes Hill & Thomas Tempelmann
+[OK]
+Loading \AUTO\BLITZ_ST.PRG ...
+ Lightning VME/ST USB controller driver (TOS) 
+Ported, mixed and shaken by David Galvez.
+Adapted by Ingo Uhlemann and Christian Zietz
+Compiled Apr 19 2024.
+
+Scanning USB devices.... Please wait...
+Found  Lightning Root Hub.
+Found  USB2.0 Hub.
+Found Logitech USB Receiver.
+Found CHZ-Soft PicoWifi.
+Found Fujitsu Siemens Computers GmbH FSC KB USB.
+Lightning without Blitter support.
+ISP1164 mode.
+vTTusb driver installed.
+[OK]
+Loading \AUTO\XBOOT.PRG ...
+[OK]
+VDI video mode = 640x480 4-plane
