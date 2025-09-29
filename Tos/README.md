@@ -2,7 +2,7 @@
 Binaries of the useful TOS progams like UIPTOOL and TOSPATCH are located on the Suska-IV SDCard-Image.<p>
 ## ROM Collections (8MB with 16 512k TOS-Slots):<br>
 [r-b4dbg.img](r-b4dbg.img) ETOS-Current 250927<br>
-Generated using: cat etoscurr.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img  etoscli.img >r-b4dbg.img<br>
+Generated using: __cat etoscurr.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img  etoscli.img >r-b4dbg.img__<br>
 OS-Switches:
 <br>xx0000xxxx ETOS 250927
 <br>xx1111xxxx ETOS 250927 CLI only on HDMI and MFP-UART (38400bd 8N1)
