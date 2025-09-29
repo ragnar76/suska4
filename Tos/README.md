@@ -4,10 +4,10 @@ Binaries of the useful TOS progams like UIPTOOL and TOSPATCH are located on the 
 [r-b4dbg.img](r-b4dbg.img) ETOS-Current 250927<br>
 Generated using: __cat etoscurr.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img  etoscli.img >r-b4dbg.img__<br>
 OS-Switches:
-<br>xx0000xxxx ETOS 250927
-<br>xx1111xxxx ETOS 250927 CLI only on HDMI and MFP-UART (38400bd 8N1)
-<br>xx0xx1xxxx ETOS 250927 Debug Output on MFP-UART (38400bd 8N1)
-<br>xx1xx0xxxx ETOS 250927 Debug Output on MFP-UART (38400bd 8N1)
+<br>xx**0000**xxxx ETOS 250927
+<br>xx**1111**xxxx ETOS 250927 CLI only on HDMI and MFP-UART (38400bd 8N1)
+<br>xx**0xx1**xxxx ETOS 250927 Debug Output on MFP-UART (38400bd 8N1)
+<br>xx**1xx0**xxxx ETOS 250927 Debug Output on MFP-UART (38400bd 8N1)
 ## Howto copy a Collection to the TOS-Flash
 - copy Collection to µSD-Card (FAT 16/32)
 - insert Card into µSD-Slot
