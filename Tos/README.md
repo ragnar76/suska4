@@ -3,7 +3,7 @@ Binaries of the useful TOS progams like UIPWIFI and TOSPATCH are located on the 
 ## ROM Collections (8MB with 16 512k TOS-Slots):<br>
 [r-b4dbg.img](r-b4dbg.img) ETOS-Current 250927<br>
 Generated using: __cat etoscurr.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img etosdebug.img  etoscli.img >r-b4dbg.img__<br>
-OS-Switches On=1 Off=0 DontCare=x other-function=n:
+OS-Switches On=0 Off=1 DontCare=x other-function=n:
 <br>nn**0000**nnnn ETOS 250927
 <br>nn**1111**nnnn ETOS 250927 CLI only on HDMI and MFP-UART (38400bd 8N1)
 <br>nn**0xx1**nnnn ETOS 250927 Debug Output on MFP-UART (38400bd 8N1)
