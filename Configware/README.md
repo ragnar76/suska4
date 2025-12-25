@@ -8,5 +8,5 @@ Here You will find new Corefiles to update the Suska-IV-B when available.
 
 ## What is new in the last version 2K25B (251224)
 - MMU/Cache - fixes: Mint030 works now with memory protection and Cache
-- Cache temporaly reduced to 256 byte Instruction and Data (will be set to 4k again later) 
+- Cache temporally reduced to 256 byte Instruction and Data (will be set to 4k again later) 
 
