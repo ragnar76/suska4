@@ -11,7 +11,7 @@ Suska4-Falcon-B | 20251224 | [SUSKA_IV_B_FALCON_2K25B.pof](SUSKA_IV_B_FALCON_2K2
 ## Howto install
 - sof - Files can be loaded for trial without permanent changes to the system. They are loaded to the FPGA using the JTAG Connnector and the Quartus SW
 - pof - Files are loaded into the Configflash of the board, deleting the old Core. They are loaded to the ConfigFlash using the AS Connnector and the Quartus SW
-## For now do not use the rbf-File in case as-getid returns: Silicon-ID: 17 ** unknown **
+## Do not use the rbf-File in case as-getid returns: Silicon-ID: 17 ** unknown **<br>Update the Firmware first: [AVR-Firmware](../Firmware/)
 - rbf - Files are loaded into the Configflash of the board, deleting the old Core. See the [howto-rbf](howto-rbf.txt) for details.
 
 ## What is new in the last version 2K25B (251224)
