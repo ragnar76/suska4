@@ -1,5 +1,12 @@
 # Suska-IV FPGA Configuration
+
 Here You will find new Corefiles to update the Suska-IV-B when available.
+Coretype | Version | Download Link | md5sum
+--- | --- | --- | ---
+Suska4-Falcon-B | 20251224 | [SUSKA_IV_B_FALCON_2K25B.rbf](SUSKA_IV_B_FALCON_2K25B.rbf) | 8e9add40c6a36248421fad1fe18b0461
+Suska4-Falcon-B | 20251224 | [SUSKA_IV_B_FALCON_2K25B.sof](SUSKA_IV_B_FALCON_2K25B.sof) | 5acee7f3f9629a35ed6b0fa86719737a
+Suska4-Falcon-B | 20251224 | [SUSKA_IV_B_FALCON_2K25B.pof](SUSKA_IV_B_FALCON_2K25B.pof) | 163141c34460035f4fa200f675d119cc
+
 
 ## Howto install
 - sof - Files can be loaded for trial without permanent changes to the system. They are loaded to the FPGA using the JTAG Connnector and the Quartus SW
@@ -10,4 +17,3 @@ Here You will find new Corefiles to update the Suska-IV-B when available.
 ## What is new in the last version 2K25B (251224)
 - MMU/Cache - fixes: Mint030 works now with memory protection and Cache
 - Cache temporally reduced to 256 byte Instruction and Data (will be set to 4k again later) 
-
