@@ -5,5 +5,6 @@ Here You find a short [Userguide](https://github.com/umatthe/suska-firmware/blob
 This diectory contains the latest official binary.<br>
 To update the AVR-Firware on Suska_IV-B:
 - download binary [system-bf.hex](system-bf.hex)
+- check the md5sum: 467d89d903db93e15de652836f81ee64 *system-bf.hex
 - make sure that no SD-Card is inserted in the AVR-µSD-SLot
 - avrdude -c avrispmkII -p m649 -U f:w:./system-bf.hex -P usb -F
